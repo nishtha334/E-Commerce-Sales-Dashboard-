@@ -1,25 +1,25 @@
-Sales & Profit Analysis Dashboard
+E-Commerce-Sales-Dashboard
 
 A Power BI business intelligence dashboard designed to analyze sales performance, profitability, orders, quantity sold, returns, regions, product categories, payment methods, shipping methods, and customer/order-related dimensions.
 
 The dashboard provides a high-level executive view of business performance while also allowing users to explore the data using interactive filters.
 
-Table of Contents
-Project Overview
-Objectives
-Key Performance Indicators
-Dashboard Features
-Visualizations
-Interactive Filters
-Key Insights
-Tools and Technologies
-Data Analysis
-How the Dashboard Works
-Project Structure
-How to Use
-Skills Demonstrated
-Future Enhancements
-Limitations
+Table of Contents,
+Project Overview,
+Objectives,
+Key Performance Indicators,
+Dashboard Features,
+Visualizations,
+Interactive Filters,
+Key Insights,
+Tools and Technologies,
+Data Analysis,
+How the Dashboard Works,
+Project Structure,
+How to Use,
+Skills Demonstrated,
+Future Enhancements,
+Limitations.
 
 Project Overview
 
@@ -27,16 +27,16 @@ E-Commerce-Sales-Dashboard- is an interactive Power BI project created to transf
 
 The dashboard focuses on important business metrics such as:
 
-Total Sales
-Total Quantity
-Total Profit
-Total Orders
-Profit Margin
-Return Rate
-Sales by Category
-Profit by Region
-Sales by Payment Type
-Performance based on shipping and plan-related filters
+Total Sales,
+Total Quantity,
+Total Profit,
+Total Orders,
+Profit Margin,
+Return Rate,
+Sales by Category,
+Profit by Region,
+Sales by Payment Type,
+Performance based on shipping and plan-related filters.
 
 The project demonstrates how Power BI can be used for data cleaning, data modeling, KPI creation, visualization, and interactive business
 analysis.
@@ -100,26 +100,25 @@ Dashboard Features
 1. Executive KPI Summary
 The top section provides a quick overview of the business using six major KPIs:
 
-Total Sales
-Total Quantity
-Total Profit
-Total Orders
-Profit Margin
-Return Rate
+Total Sales,
+Total Quantity,
+Total Profit,
+Total Orders,
+Profit Margin,
+Return Rate.
 
 This allows users to understand the overall business position without manually reviewing individual charts.
 
 2. Category Analysis
 
-The dashboard includes category-level analysis to compare sales and
-return performance.
+The dashboard includes category-level analysis to compare sales and return performance.
 
 Categories visible in the dashboard include:
-Automotive
-Beauty
-Books
-Clothing
-Electronics
+Automotive,
+Beauty,
+Books,
+Clothing,
+Electronics,
 Groceries, etc.
 The category filters allow users to focus the dashboard on a specific product category.
 
@@ -127,10 +126,10 @@ The category filters allow users to focus the dashboard on a specific product ca
 
 Profit is visualized across geographical regions.
 The dashboard includes:
-Africa
-APAC
-EU
-LATAM
+Africa,
+APAC,
+EU,
+LATAM,
 US, etc.
 
 This helps users compare regional profitability and identify differences between markets.
@@ -140,11 +139,11 @@ This helps users compare regional profitability and identify differences between
 A donut chart presents the distribution of sales by payment type.
 
 Payment methods shown include:
-Wire Transfer
-PayPal
-Cryptocurrency
-Debit Card
-Credit Card
+Wire Transfer,
+PayPal,
+Cryptocurrency,
+Debit Card,
+Credit Card.
 
 This can help analyze customer payment preferences and the contribution of each payment channel.
 
@@ -152,22 +151,19 @@ This can help analyze customer payment preferences and the contribution of each 
 
 The dashboard includes an interactive shipping-method filter with options such as:
 
-First Class
-Same Day
-Second Class
-Standard Class
+First Class,
+Same Day,
+Second Class,
+Standard Class.
 
 This can be used to investigate how different shipping methods affect the selected business metrics.
 
 6. Plan Type Analysis
 
 The dashboard also provides a plan-type filter:
-
-Basic
-
-Enterprise
-
-Premium
+Basic,
+Enterprise,
+Premium.
 
 Users can use this filter to compare business performance across different plan segments.
 
@@ -175,46 +171,41 @@ Visualizations
 
 The dashboard contains several visual elements.
 
-Return Rate by Category
-
+Return Rate by Category: 
 A column/bar visualization is used to examine return-rate performance for the selected category.
 
-Total Sales by Category
-
+Total Sales by Category: 
 A horizontal bar chart compares total sales across product categories.
 
 This makes it easier to identify which categories contribute the most to revenue.
 
-Total Profit by Region
-
+Total Profit by Region: 
 A column chart compares profit across:
 
-Africa
-APAC
-LATAM
-EU
-US
+Africa,
+APAC,
+LATAM,
+EU,
+US.
 
 This visualization supports geographical performance analysis.
 
-Total Sales by Payment Type
-
+Total Sales by Payment Type: 
 A donut chart shows how total sales are distributed across different payment methods.
 
-Interactive Filters
-
+Interactive Filters: 
 The dashboard provides slicers that allow users to dynamically filter the report.
 
-Category Filter
+Category Filter: 
 Filters the report by product category.
 
-Region Filter
+Region Filter: 
 Filters the report by geographical region.
 
-Shipping Method Filter
+Shipping Method Filter: 
 Filters results according to shipping method.
 
-Plan Type Filter
+Plan Type Filter: 
 Filters results according to plan type.
 
 Because the dashboard is interactive, selecting a value in one filter can update the other visualizations according to the Power BI relationships and visual interactions configured in the report.
@@ -242,45 +233,45 @@ Power BI
 The dashboard was developed using Microsoft Power BI.
 
 Power BI was used for:
-Data visualization
-KPI cards
-Interactive slicers
-Charts and graphs
-Data analysis
-Dashboard design
-Business intelligence reporting
-Data Analysis Concepts
+Data visualization,
+KPI cards,
+Interactive slicers,
+Charts and graphs,
+Data analysis,
+Dashboard design,
+Business intelligence reporting,
+Data Analysis Concepts.
 
 The project demonstrates concepts including:
 
-Data aggregation
-KPI analysis
-Category analysis
-Regional analysis
-Profitability analysis
-Return analysis
-Payment-method analysis
-Interactive filtering
-Business reporting
+Data aggregation,
+KPI analysis,
+Category analysis,
+Regional analysis,
+Profitability analysis,
+Return analysis,
+Payment-method analysis,
+Interactive filtering,
+Business reporting.
 
 Data Analysis
 
 The dashboard converts transactional/business data into aggregated measures that can be used for decision-making.
 
 Typical analytical dimensions used in the dashboard include:
-Category
-Region
-Shipping Method
-Plan Type
-Payment Type
+Category,
+Region,
+Shipping Method,
+Plan Type,
+Payment Type.
 
 The dashboard then evaluates business measures such as:
-Sales
-Quantity
-Profit
-Orders
-Profit Margin
-Return Rate
+Sales,
+Quantity,
+Profit,
+Orders,
+Profit Margin,
+Return Rate.
 
 This dimensional approach allows the same metrics to be analyzed from multiple perspectives.
 
@@ -307,24 +298,19 @@ Interactive Dashboard
         v
 Business Insights
 
-Step 1: Data Preparation
-
+Step 1: Data Preparation: 
 The source data is prepared for analysis by ensuring that the required fields have appropriate data types and usable values.
 
-Step 2: Data Modeling
-
+Step 2: Data Modeling: 
 Relevant fields are organized so that Power BI can aggregate and filter the data efficiently.
 
-Step 3: KPI Creation
-
+Step 3: KPI Creation: 
 Business metrics such as sales, profit, orders, profit margin, and return rate are calculated or aggregated.
 
-Step 4: Visualization
-
+Step 4: Visualization: 
 The measures are represented through KPI cards, bar charts, column charts, donut charts, and slicers.
 
-Step 5: Interactive Analysis
-
+Step 5: Interactive Analysis: 
 Users can select categories, regions, shipping methods, or plan types to investigate specific segments.
 
 Project Structure
@@ -346,7 +332,7 @@ E-Commerce-Sales-Dashboard-/
 └── .gitignore
 
 How to Use
-Option 1: Open the Power BI File
+Option 1: Open the Power BI File.
 
 Install Microsoft Power BI Desktop.
 
@@ -363,38 +349,37 @@ Use the slicers to explore the dashboard.
 Option 2: View the Dashboard Screenshot
 
 If you only want to see the final dashboard, open:
-
 assets/dashboard.png
 
 Skills Demonstrated
 
 This project demonstrates the following technical and analytical skills:
-Data Visualization
-Dashboard design
-KPI cards
-Bar charts
-Column charts
-Donut charts
-Interactive slicers
-Data Analysis
-Sales analysis
-Profit analysis
-Regional analysis
-Category analysis
-Return-rate analysis
-Payment-method analysis
-Business Intelligence
-KPI monitoring
-Performance comparison
-Interactive reporting
-Business-focused data storytelling
-Executive dashboard design
-Power BI
-Report creation
-Visual configuration
-Filters and slicers
-Measures and aggregations
-Interactive report development
+Data Visualization,
+Dashboard design,
+KPI cards,
+Bar charts,
+Column charts,
+Donut charts,
+Interactive slicers,
+Data Analysis,
+Sales analysis,
+Profit analysis,
+Regional analysis,
+Category analysis,
+Return-rate analysis,
+Payment-method analysis,
+Business Intelligence,
+KPI monitoring,
+Performance comparison,
+Interactive reporting,
+Business-focused data storytelling,
+Executive dashboard design,
+Power BI,
+Report creation,
+Visual configuration,
+Filters and slicers,
+Measures and aggregations,
+Interactive report development,
 
 Limitations
 
@@ -411,16 +396,16 @@ Large datasets may require optimization of the Power BI data model and measures.
 GitHub Repository Setup
 The recommended structure is:
 
-README.md
+README.md-
 assets/
 powerbi/
 data/
 .gitignore
 
 Nishtha Sharma
-B.Sc. Artificial Intelligence and Data Science
+B.Sc. Artificial Intelligence and Data Science,
 GitHub:(https://github.com/nishtha334 )
-LinkedIn: linkedin.com/in/nishtha-sharma01 
+LinkedIn: linkedin.com/in/nishtha-sharma01.
 
 License
 
